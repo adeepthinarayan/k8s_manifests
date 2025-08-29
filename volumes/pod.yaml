@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: demo-pod
   labels:
-    app: nginx   # 👈 Add this label to match Service selector
+    app: nginx  
 spec:
   containers:
     - name: nginx
